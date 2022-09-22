@@ -1,0 +1,63 @@
+hr {
+    color: silver;
+    /* width: 50%; */
+}
+
+.main-div {
+    display: block;
+    justify-content: center;
+    margin-top: 50vh;
+    text-align: center;
+}
+
+.main-div button {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 7rem;
+}
+
+.center_div {
+    margin: 0 auto;
+    width: 80%
+        /* value of your choice which suits your alignment */
+}
+
+label {
+    /* color: #3467e9 */
+}
+
+body {
+    /* text-align: center; */
+    /* background-color: lightgray; */
+    background-color: lightblue;
+}
+
+.main-div {
+
+    /* display: inline-block; */
+    /* margin-top: 30%; */
+}
+
+form {
+    display: inline-block;
+    /* text-align: center; */
+    margin-top: 30%;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-footer button {
+    border-radius: 10px;
+    width: 5rem;
+}
+
+.open-btn {
+    border-radius: 10px;
+}
+
+.close-btn {}
