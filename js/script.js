@@ -24,7 +24,7 @@ closeModal2 = () => {
 
 submitRequest = () => {
     closeModal();
-    setTimeout(() => { alert('Your request has been submitted and pending approval \n ¯\\_(ツ)_/¯') }, 500);
+    setTimeout(() => { alert('Your request has been submitted and pending approval') }, 500);
 
     // alert('your request has been submitted and pending approval')
     // setTimeout(() => { closeModal(); }, 500);
