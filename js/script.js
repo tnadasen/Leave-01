@@ -29,3 +29,19 @@ submitRequest = () => {
     // alert('your request has been submitted and pending approval')
     // setTimeout(() => { closeModal(); }, 500);
 }
+
+approveRequest = () => {
+    closeModal();
+    setTimeout(() => { alert('The leave is being processed') }, 500);
+
+    // alert('your request has been submitted and pending approval')
+    // setTimeout(() => { closeModal(); }, 500);
+}
+
+rejectRequest = () => {
+    closeModal();
+    setTimeout(() => { alert('The leave is being processed') }, 500);
+
+    // alert('your request has been submitted and pending approval')
+    // setTimeout(() => { closeModal(); }, 500);
+}
