@@ -24,11 +24,47 @@
 
     <!-- <div> -->
     <!-- <form> -->
-    <div class="main-div">
+    <!-- <div class="main-div">
         <p>Tap the button below <br> to access the leave request</p>
-        <!-- <br> -->
         <button id="open-btn" class="open-btn" onclick="showModal()">Open</button>
+    </div> -->
+
+    <div>
+        <table class="leave-list">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Employee ID</th>
+                    <th>Leave Type</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Timothy</td>
+                    <td>Nadasen</td>
+                    <td>123456</td>
+                    <td>Annual Leave</td>
+                    <td>10/07/2022</td>
+                    <td>14/07/2022</td>
+                    <td><button onclick="showModal()">View Details</button></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+
+
+
+
+
+
+
+
+
+
     <!-- </form> -->
     <!-- <h4 style=" display: block;">Tape the button below so submit a leave request</h4> -->
 
@@ -128,7 +164,7 @@
                             <label style="width: 100%;" class="col-sm-2 col-form-label">Start Date</label>
                             <div class="col-sm-10">
                                 <input type="email" class="form-control" id="email" placeholder="Manager Email"
-                                    value="07/07/2022" disabled>
+                                    value="somebody@elsewhere.approve" disabled>
                             </div>
                         </div>
 
@@ -136,7 +172,7 @@
                             <label style="width: 100%;" class="col-sm-2 col-form-label">End Date</label>
                             <div class="col-sm-10">
                                 <input type="email" class="form-control" id="email" placeholder="Manager Email"
-                                    value="10/07/2022" disabled>
+                                    value="somebody@elsewhere.approve" disabled>
                             </div>
                         </div>
 
@@ -189,19 +225,10 @@
 
                         <!-- <hr> -->
 
-                        <!-- <div class="form-group">
-                    <label style="width: 100%;" style="color: #A52A2A" for="exampleFormControlFile1">Attach A
-                        File (optional)</label>
-                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                </div> -->
-
                         <div class="form-group">
-                            <label style="width: 100%;" class="col-sm-2 col-form-label">View Attachment</label>
-                            <div class="col-sm-10">
-                                <!-- <input type="email" class="form-control" id="email" placeholder="Manager Email"
-                            value="somebody@elsewhere.approve" disabled> -->
-                                <button>Tap If A File Exists</button>
-                            </div>
+                            <label style="width: 100%;" style="color: #A52A2A" for="exampleFormControlFile1">Attach The
+                                File Sent Via Request E-Mail (optional)</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
                         </div>
 
                     </form>
