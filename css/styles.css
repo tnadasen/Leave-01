@@ -26,18 +26,13 @@ hr {
 
 label {
     /* color: #3467e9 */
+    font-weight: bold;
 }
 
 body {
     /* text-align: center; */
     /* background-color: lightgray; */
     background-color: lightblue;
-}
-
-.main-div {
-
-    /* display: inline-block; */
-    /* margin-top: 30%; */
 }
 
 form {
@@ -60,4 +55,15 @@ form {
     border-radius: 10px;
 }
 
-.close-btn {}
+.leave-list {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    margin-top: 30vh;
+}
+
+.leave-list th,
+td {
+    padding: 5px 5px;
+    border: 1px solid black;
+}
